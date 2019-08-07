@@ -1,0 +1,29 @@
+body
+{text-align: center}
+{#karta align: center}
+h1 
+{color:rgb(160, 17, 189); }
+h2
+ {color:rgb(160, 17, 189); }
+ h3
+ {color:rgb(160, 17, 189); }
+ h5
+ {color:rgb(160, 17, 189); }
+body {
+  background-color: rgb(189, 76, 142);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: green; text-align: center
+    @media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.karta {
+    display: none;
+  }
+}
